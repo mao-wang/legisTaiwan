@@ -92,7 +92,7 @@ get_ly_interpellations <- function(
     show_progress = TRUE
 ) {
   # Base URL
-  base_url <- "https://ly.govapi.tw/interpellation"
+  base_url <- "https://v2.ly.govapi.tw/interpellations"
 
   # Query parameters
   query_params <- list(
